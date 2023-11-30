@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pixi</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+			}
+			#fileUploader {
+				position: absolute;
+				top: 10px;
+				left: 10px;
+				z-index: 100;
+			}
+		</style>
+	</head>
+	<body>
+		<input type="file" id="fileUploader" accept="image/*" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/6.0.4/browser/pixi.min.js"></script>
+		<script src="./app.js"></script>
+	</body>
+</html>
